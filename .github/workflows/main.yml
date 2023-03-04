@@ -13,14 +13,15 @@ permissions:
   contents: write
   deployments: write
   id-token: write
-  issues: write
-  discussions: write
-  packages: write
   pages: write
-  pull-requests: write
   repository-projects: write
-  security-events: write
-  statuses: write
+  issues: none
+  discussions: none
+  packages: none
+  pull-requests: none
+  security-events: none
+  statuses: none
+
 
 jobs:
   deploy-to-github-pages:
