@@ -12,7 +12,7 @@ permissions:
   pages: none
 
   contents: write
-  checks: write
+  checks: none
 
   repository-projects: none
   actions: none
