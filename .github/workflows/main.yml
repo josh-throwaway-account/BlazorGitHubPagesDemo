@@ -8,23 +8,7 @@ on:
 # give the workflow full permissions. This is for testing purposes to see if this is what is blocking my gh-pages push. I hope to pare this back eventually
 # Source: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions
 permissions:
-  deployments: none
-  pages: none
-
   contents: write
-  checks: none
-
-  repository-projects: none
-  actions: none
-  id-token: none
-
-  issues: none
-  discussions: none
-  packages: none
-  pull-requests: none
-  security-events: none
-  statuses: none
-
 
 jobs:
   deploy-to-github-pages:
