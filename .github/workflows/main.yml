@@ -7,7 +7,20 @@ on:
 
 # give the workflow full permissions. This is for testing purposes to see if this is what is blocking my gh-pages push. I hope to pare this back eventually
 # Source: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions
-permissions: write-all
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  id-token: write
+  issues: write
+  discussions: write
+  packages: write
+  pages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
 
 jobs:
   deploy-to-github-pages:
