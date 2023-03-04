@@ -1,5 +1,9 @@
 name: Deploy to GitHub Pages
 
+# give the workflow full permissions. This is for testing purposes to see if this is what is blocking my gh-pages push. I hope to pare this back eventually
+# Source: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions
+permissions: read-all|write-all
+
 # Run workflow on every push to the master branch
 on:
   push:
